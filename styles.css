@@ -1,0 +1,143 @@
+* {
+    box-sizing: border-box;
+    margin: 0 auto;
+}
+
+a {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: large;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    color: white;
+}
+
+a:hover {
+    opacity: 0.75;
+}
+
+.logo {
+    padding: 0;
+    margin: 5px;
+    width: 6rem;
+    height: 3rem;
+}
+
+.container {
+    display: inline-flex;
+    width: 100%;
+    padding: 1rem;
+    background-color: black;
+    border: 4px black solid;
+    justify-content: space-around;
+}
+
+.block {
+    display: inline-block;
+    width: 90%;
+    height: 90%;
+    padding: 2rem;
+    background-color: black;
+    border: 4px black solid;
+}
+
+.conferencia {
+    display: block;
+    margin: 0px auto 30px;
+    color: black;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: white;
+    border: 1px solid white;
+}
+
+.equipo {
+    display: block;
+    color: black;
+    text-align: center;
+    font-size: xx-large;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 300;
+}
+
+.links {
+    display: flex;
+    width: 80%;
+    margin: 10px auto 50px;
+}
+
+.button {
+    margin-top: 10px;
+    border-top-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    border-top-right-radius: 50px;
+    border-bottom-left-radius: 50px;
+    border: 1px solid white;
+    width: 110px;
+}
+
+.button:hover {
+    opacity: 0.75;
+}
+
+.roster, .stats, .schedule, .tickets {
+    color: black;
+}
+
+.card {
+    display: flex;
+    width: 480px;
+    height: 300px;
+    margin: 0 auto;
+    padding: 0;
+    object-fit: cover;
+    border-top-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    border: 1px solid white;
+}
+
+.card:hover {
+    opacity: 0.75;
+    transition: 350ms;
+    cursor: pointer;
+}
+
+.boston, .milwaukee{
+    box-shadow: 0 0 20px 0 green;
+}
+
+.brooklyn, .utah, .sanantonio {
+    box-shadow: 0 0 20px 0 white;
+}
+
+.newyork, .phoenix {
+    box-shadow: 0 0 20px 0 orange;
+}
+
+.philadelphia, .detroit, .orlando, .minnesota, .dallas, .memphis, .neworleans {
+    box-shadow: 0 0 20px 0 darkblue;
+}
+
+.toronto, .chicago, .atlanta, .miami, .portland, .lac, .houston {
+    box-shadow: 0 0 20px 0 darkred;
+}
+
+.cleveland {
+    box-shadow: 0 0 20px 0 brown;
+}
+
+.indiana, .denver, .goldenstate {
+    box-shadow: 0 0 20px 0 gold;
+}
+
+.charlotte, .oklahoma {
+    box-shadow: 0 0 20px 0 deepskyblue;
+}
+
+.washington {
+    box-shadow: 0 0 20px 0 crimson;
+}
+
+.lal, .sacramento {
+    box-shadow: 0 0 20px 0 indigo;
+}
